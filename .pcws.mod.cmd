@@ -1,0 +1,1 @@
+cmd_/home/tliebsch/projects/pcws/pcws/source/pcws.mod := printf '%s\n'   pcws_main.o pcws_cashdrawer.o pcws_board.o pcws_serial.o pcws_controls.o | awk '!x[$$0]++ { print("/home/tliebsch/projects/pcws/pcws/source/"$$0) }' > /home/tliebsch/projects/pcws/pcws/source/pcws.mod

@@ -1,0 +1,1 @@
+cmd_/home/tliebsch/projects/pcws/pcws/source/pcws.o := ld -m elf_x86_64 -z noexecstack --no-warn-rwx-segments   -r -o /home/tliebsch/projects/pcws/pcws/source/pcws.o @/home/tliebsch/projects/pcws/pcws/source/pcws.mod 

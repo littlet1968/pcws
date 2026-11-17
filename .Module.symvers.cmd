@@ -1,0 +1,1 @@
+cmd_/home/tliebsch/projects/pcws/pcws/source/Module.symvers := sed 's/ko$$/o/' /home/tliebsch/projects/pcws/pcws/source/modules.order | scripts/mod/modpost -m -a  -o /home/tliebsch/projects/pcws/pcws/source/Module.symvers -e -i Module.symvers   -T -
